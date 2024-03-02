@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navfly-main-container {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background-color: #232f3e;
+}
+
+/* Menu-icon */
+
+.menu-icon {
+  width: 56px;
+  height: 40px;
+  display: flex;
+  color: white;
+  cursor: pointer;
+  margin-left: 0.7rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon:hover {
+  border-radius: 2px;
+  border: 0.1px solid white;
+}
+
+.all-text {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+/* Fresh */
+
+.fresh-container {
+  width: 63px;
+  color: white;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  z-index: 2;
+}
+
+.fresh-container:hover {
+  border-radius: 2px;
+  border: 0.1px solid white;
+}
+
+.fresh-sub-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.49rem;
+  margin-left: 0.3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.fresh-icon {
+  margin-top: 0.4rem;
+  margin-left: -0.1rem;
+}
+
+.shop-groceries {
+  width: 375px;
+  height: 306px;
+  position: relative;
+  margin-top: 0.4rem;
+  margin-left: -0.2rem;
+  background-color: white;
+}
+
+.fresh-up-arrow {
+  top: -1.1rem;
+  position: absolute;
+  margin-left: -9.2rem;
+}
+
+.shop-groceries-heading {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  color: black;
+  font-weight: 600;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  align-items: center;
+  margin-left: 1.1rem;
+}
+
+.shop-gro-text {
+  cursor: text;
+}
+
+.fresh-img {
+  width: 100%;
+  display: flex;
+  height: 165px;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.fresh-img1 {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-right: 0.2rem;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.fresh-img2 {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-left: 0.2rem;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.shop-grocerie-divider {
+  width: 336px;
+  height: 0.1px;
+  margin-top: 1.9rem;
+  margin-left: 1.3rem;
+  background-color: #bbbfbf;
+}
+.all-grocerie {
+  margin-top: 1.5rem;
+  margin-right: 7.5rem;
+  color: lightseagreen;
+}
+
+/* Amazon MiniTv */
+
+.amazon-minitv-main-container {
+  width: 116.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  height: 100%;
+  margin-left: 0.1rem;
+}
+
+.amazon-minitv-main-container:hover {
+  border-radius: 2px;
+  border: 0.1px solid white;
+}
+
+/* Sell */
+
+.sell {
+  width: 40px;
+  height: 100%;
+  margin-left: 0.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.sell:hover {
+  border-radius: 2px;
+  border: 0.1px solid white;
+}
+
+/* BestSeller */
+
+.bestseller {
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: white;
+  margin-left: 0.1rem;
+}
+
+.bestseller:hover {
+  border-radius: 2px;
+  border: 0.1px solid white;
+}
+
+.mobile {
+  width: 63px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: white;
+  margin-left: 0.1rem;
+}
+
+.mobile:hover {
+  border-radius: 2px;
+  border: 0.1px solid white;
+}
+
+.today-deal {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: white;
+  margin-left: 0.2rem;
+}
+
+.today-deal:hover {
+  border: 0.1px solid white;
+  border-radius: 2px;
+}
+
+.electronics {
+  width: 84px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: white;
+  margin-left: 0.12rem;
+}
+
+.electronics:hover {
+  border: 0.1px solid white;
+  border-radius: 2px;
+}
+
+.customer-services {
+  width: 127px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: white;
+  margin-left: 0.2rem;
+}
+
+.customer-services:hover {
+  border-radius: 2px;
+  border: 0.1px solid white;
+}
+
+.new-launches {
+  height: 100%;
+  margin-left: 6rem;
+}
+
+.new-launches:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}

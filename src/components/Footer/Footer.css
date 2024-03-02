@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-main-container {
+  width: 100%;
+  height: 151vh;
+  /* background-color: gray; */
+}
+
+.first-main-container {
+  width: 100%;
+  height: 185px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-sub-container {
+  border: 0.2px solid #dddddd;
+  width: 100%;
+  height: 125px;
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1.4rem;
+}
+
+.see-personalized-recommendations {
+  font-size: 0.9rem;
+  margin-top: 0.7rem;
+}
+
+.signin-btn {
+  margin-top: 0.3rem;
+  width: 250px;
+  height: 1.8rem;
+  color: black;
+  background-color: #ffce53;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  border: 0.1px solid #e6a400;
+  cursor: pointer;
+}
+
+.new-customer {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 0.9;
+}
+
+.back {
+  background-color: #485769;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  height: 3.1rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back:hover {
+  background-color: #617082;
+}
+
+.connect-main-container {
+  width: 100%;
+  height: 485px;
+  background-color: #232f3e;
+}
+
+.connect-sub-container {
+  width: 100%;
+  height: 304px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-ul {
+  list-style-type: none;
+  color: white;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.title {
+  color: white;
+  gap: 0.9rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  align-items: flex-start;
+  display: flex;
+}
+
+.common-div {
+  height: 40vh;
+}
+
+.footer-divider {
+  width: 100%;
+  margin-top: 1.6rem;
+  border: 0.1px solid white;
+}
+
+.counter-name-container {
+  height: 154px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo-lan-container {
+  height: 45%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  margin-top: 0.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.amazon-logo {
+  height: 23px;
+  width: 90px;
+}
+.lan-container {
+  width: 118px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  color: white;
+  border: 0.1px solid white;
+}
+
+.globe-icon {
+  margin-right: 0.1rem;
+  margin-top: 0.2rem;
+}
+
+.top-bottom-arrow {
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
+}
+
+/* Country Container */
+
+.country-container {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.country-ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 900px;
+  height: 40px;
+  margin-bottom: 1.1rem;
+  justify-content: center;
+  flex-direction: column;
+}
+.united-fifteen {
+  display: flex;
+  gap: 0.8rem;
+}
+.united-two {
+  display: flex;
+  gap: 0.8rem;
+}
+
+/* Footer-bottom-container */
+
+.footer-bottom-container {
+  width: 100%;
+  display: flex;
+  height: 37vh;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #131a22;
+  /* height: 100vh; */
+  /* background: red; */
+}
+
+.footer-link-container {
+  margin-top: 1rem;
+}
+
+.table {
+  cursor: pointer;
+}
+
+.tr-1 {
+  font-size: 0.8rem;
+}
+
+.td-1 {
+  padding: 0.2rem 4rem;
+}
+
+.tr-2 {
+  font-size: 0.8rem;
+}
+
+.td-2 {
+  padding: 0.2rem 4rem;
+}
+
+/* conditions-container */
+
+.conditions-container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.conditions-sub-con {
+}
+
+.conditions-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 640;
+}
+
+.copyright {
+  font-size: 0.85rem;
+}

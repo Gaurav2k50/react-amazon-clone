@@ -1,0 +1,95 @@
+.sidenav-main-container {
+  width: 365.8px;
+  height: 100vh; /* Change the height to 100vh for full screen height */
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-y: auto; /* Add overflow-y: auto to enable scrolling if content exceeds height */
+}
+
+.close-icon {
+  position: fixed;
+  margin-top: 2.5rem;
+  top: 1.5rem;
+  font-weight: bolder;
+  margin-left: 8.5rem;
+  cursor: pointer;
+  color: blueviolet;
+}
+
+.hlw-signin {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background: #232f3e;
+  display: flex;
+  cursor: pointer;
+  height: 51px;
+  align-items: center;
+}
+
+.hlw-icon-container {
+  margin-left: 2.2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-start;
+  gap: 9px;
+  font-weight: bold;
+}
+
+.profile-icon {
+  width: 1.8rem;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.pro-icon {
+  color: black;
+}
+
+.icon-text {
+  color: white;
+  font-size: 20px;
+}
+
+.hmenu-title {
+  margin-top: 1.2rem;
+  display: flex;
+  margin-left: 2.3rem;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+.hmenu-item {
+  cursor: pointer;
+  display: flex;
+  margin-top: 1.2rem;
+  color: black;
+  /* background-color: aqua; */
+  margin-left: 2.3rem;
+  justify-content: space-between;
+}
+
+.hmenu-arrow-next {
+  /* background-color: brown; */
+  display: flex;
+  margin-right: 2.1rem;
+  margin-top: 0.1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.hmenu-separator {
+  width: 100%;
+  background-color: black;
+  height: 0.01rem;
+  margin-top: 1rem;
+}
